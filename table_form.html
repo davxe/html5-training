@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body style="background-color:rgb(235, 105, 96);">
+        <h2 Align="center"><u>STUDENT REGISTRATION FORM</u></h2><br>
+        <form>
+            <div>
+                <table style="background-color:rgb(40, 235, 196);" Align="center">
+                    <caption></caption>
+                    <tr>
+                        <th Align="left"><label for="first"> NAME:</label></th>
+                        <td> <input type="text" id="first" placeholder="First Name" name="first-name"/>(max 30 characters a-z or A-Z) </td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="last">LAST NAME:</label></th>
+                        <td> <input type="text" id="last" placeholder="Last Name" name="last-name"/>(max 30 characters a-z or A-Z) </td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="dob">DATE OF BIRTH:</label></th>
+                        <td><input type="date" id="dob" placeholder="dd-mm-yyyy" name="dob"/> </td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="email">EMAIL ID:</label></th>
+                        <td><input type="email" name="email" id="email"/> </td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="num">MOBILE NUMBER:</label></th>
+                        <td><input type="number" placeholder="10digits number" id="num" name="mob"/></td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label>GENDER:</label></th>
+                        <td><input type="radio" name="gender"/>MALE <input type="radio" name="gender"/>FEMALE</td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="upload">UPLOAD PHOTO:</label></th>
+                        <td><input type="file" placeholder="Choose File" id="upload" name="photo"/></td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="address">ADDRESS:</label></th>
+                        <td><textarea cols="60" id="address" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="city">CITY:</label></th>
+                        <td><input type="text" id="city" name="city"/></td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label for="pin">PIN CODE:</label></th>
+                        <td><input type="number" name="pin" id="pin" placeholder="6 digits number"/></td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label> STATE:</label></th>
+                        <td><select name="state">
+                            <option>JAMMU</option>
+                            <option>PUNJAB</option>
+                            <option>BIHAR</option>
+                            <option>JHARKHAND</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <th Align="left"><label>COUNTRY:</label></th>
+                        <td><input type="text" name="country" value="INDIA" readonly="readonly"/> </td>
+                    </tr>
+                    <tr>    
+                        <th Align="left"><label>HOBBIES:</label></th>
+                        <td>
+                            <input type="checkbox" name="hobbies"/>FOOTBALL
+                            <input type="checkbox" name="hobbies"/>CRICKET
+                            <input type="checkbox" name="hobbies"/>WATCHING MOVIES
+                            <input type="checkbox" name="hobbies"/>LISTINING SONGS 
+                            <input type="text" name="hobbies"/>Others
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br/>
+            <div Align="center">
+                <input type="submit" name="submit"/>
+            </div>
+        </form>
+    </body>
+</html>
